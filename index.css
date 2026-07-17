@@ -1402,3 +1402,32 @@ body{
   color: #0056b3;
   border-color: #cbd5e1;
 }
+
+.last-3 {
+  display: flex;
+  gap: 50px;
+}
+.last-3 div {
+  min-height: 200px;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-top: 100px;
+}
+.last-3 img {
+  height: 60px;
+}
+.sub-div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-top: -70px;
+}
+.sub-div div {
+  min-height: 200px;
+  background-color: #f8fafd;
+  min-width: 400px;
+  flex-shrink: 0;
+}
