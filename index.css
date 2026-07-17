@@ -1026,6 +1026,7 @@ body{
     top:190px;
     z-index:100;
     width:100%;
+    /* padding-top: 200px; */
     display: flex;
     justify-content: center;
 }
@@ -1034,16 +1035,18 @@ body{
     background:#fff;
     border-radius:35px;
     padding:15px;
+    /* padding-bottom: 200px; */
     box-shadow:0 20px 40px rgba(0,0,0,.08); 
     
 }
 
 .nav-pillsfawaz{
-    /* display: flex; */
-    /* flex-wrap:nowrap; */
-    /* overflow-x:auto; */
-    /* white-space:nowrap; */
+    display: flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    white-space:nowrap;
     gap: 10px;
+    /* padding-top: 200px; */
 }
 
 .nav-pillsfawaz::-webkit-scrollbarfawaz{
@@ -1437,5 +1440,5 @@ body{
 }
 
 .ashift{
-    
+
 }
