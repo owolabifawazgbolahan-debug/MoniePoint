@@ -1431,3 +1431,11 @@ body{
   min-width: 400px;
   flex-shrink: 0;
 }
+
+.ashift:hover{
+    transform: scale(0.96);
+}
+
+.ashift{
+    
+}
