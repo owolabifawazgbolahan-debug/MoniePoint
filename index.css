@@ -306,7 +306,7 @@ body {
   font-size: 12px;
 }
 .main {
-  height: 250dvh;
+  /* height: 250dvh; */
   /* border: 1px solid rgb(205, 62, 85); */
   margin-top: 10dvh;
   justify-content: space-between;
@@ -381,9 +381,6 @@ body {
 .butt:hover {
   transform:  scale(0.9);
 }
-/* ===========================
-   MOBILE (320px - 426px)
-=========================== */
 
 @media (max-width: 426px) {
   body {
@@ -972,12 +969,13 @@ html{
 }
 
 body{
-    background:#f6f8fc;
+    background:#F3F7FC;
 }
 
 .products-nav{
     position:sticky;
     top:190px;
+    /* background-color: #F3F7FC; */
     z-index:100;
     width:100%;
     /* padding-top: 200px; */
@@ -987,7 +985,7 @@ body{
 
 .nav-box{
     background:#fff;
-    border-radius:35px;
+    border-radius:20px;
     padding:15px;
     /* padding-bottom: 200px; */
     box-shadow:0 20px 40px rgba(0,0,0,.08); 
@@ -1014,7 +1012,7 @@ body{
 }
 
 .nav-link.active{
-    background:#d8edff !important;
+    background:#F3F7FC !important;
     color:#082d6d !important;
 }
 
@@ -1029,7 +1027,7 @@ body{
     display:inline-block;
     padding:10px 18px;
     border-radius:30px;
-    background:#e8f4ff;
+    background:#F3F7FC;
     color:#082d6d;
 }
 
@@ -1138,6 +1136,7 @@ body{
     display: flex;
     width: max-content;
 }
+
 .logo-group{
     display: flex;
     align-items: center;
