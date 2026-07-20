@@ -288,6 +288,20 @@ body {
   filter: invert(1);
 }
 
+.abc{
+  margin-left: 20px;
+}
+
+.abc:hover{
+  background-color: #35425D;
+  color: white;
+  border-radius: 30px;
+}
+
+.si{
+  margin-left: 20px;
+}
+
 .og {
   align-items: center;
   justify-content: center;
