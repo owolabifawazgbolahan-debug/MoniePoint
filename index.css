@@ -287,22 +287,7 @@ body {
 .navbar-toggler-icon {
   filter: invert(1);
 }
-.dropdown-menu {
-  min-width: 350px;
-  padding: 20px;
-  border-radius: 18px;
-  border: none;
-}
 
-.dropdown-item {
-  padding: 15px 20px;
-  font-size: 16px;
-  border-radius: 10px;
-}
-
-.dropdown-item:hover {
-  color: white;
-}
 .og {
   align-items: center;
   justify-content: center;
@@ -350,19 +335,19 @@ body {
 
 .african {
   background-color: #3e588e;
-  width: 66%;
+  width: 50%;
   height: auto;
   color: #f9fafb;
   display: flex;
   align-items: center;
-  font-size: 13.5px !important;
+  font-size: 16px !important;
   gap: 10px;
+  box-shadow: white;
   margin-top: 10px;
 }
 
 .african img{
     margin: 10px;
-    /* padding-bottom: 50px; */
 }
 
 .main-1-1 h1 {
@@ -410,7 +395,7 @@ body {
     
     
 
-.afonp {
+.africa-text {
   color: #c3c9d5;
   font-weight: 400;
   font-size: 17px;
@@ -1191,11 +1176,11 @@ body{
     animation: slidelogos 30s linear infinite;
 }
 
-.big-nat li a {
+.footer-text li a {
     position: relative;
     padding-bottom: 4px;
 }
-.big-nat li a::after {
+.footer-text li a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -1207,7 +1192,7 @@ body{
     transform-origin: left;
     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.big-nat li a:hover::after {
+.footer-text li a:hover::after {
     transform: scaleX(1);
 }
 
@@ -1438,6 +1423,141 @@ body{
     transform: scale(0.96);
 }
 
-.ashift{
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+@media (max-width: 991px) {
+  .box {
+    height: auto;
+    padding: 30px 0;
+    transform: none;
+  }
+
+  .box h2 {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0 24px;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .box p {
+    padding-left: 0;
+    padding: 0 24px;
+    margin-top: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .african {
+    width: 100%;
+    white-space: normal;
+    font-size: 12px !important;
+    text-align: left;
+    padding: 8px 12px !important;
+  }
+
+  .african img {
+    margin: 6px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    height: auto;
+  }
+
+  .main-1 {
+    height: auto;
+    min-height: 90dvh;
+    padding-bottom: 60px;
+    clip-path: polygon(100% 0%, 100% 96%, 50% 100%, 0% 96%, 0% 0%);
+  }
+
+  .main-1-1 {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .main-1-1 h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .africa-text {
+    white-space: normal;
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-1-1 h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel-track {
+    width: max-content;
+    transform: none !important;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    padding-bottom: 8px;
+  }
+
+  .blog-card-item {
+    flex: 0 0 280px;
+    width: 280px;
+    scroll-snap-align: start;
+  }
+
+  .blog-card-image-box {
+    height: 180px;
+  }
+
+  .carousel-dots-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-card-item {
+    flex: 0 0 240px;
+    width: 240px;
+  }
+
+  .blog-card-image-box {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .moniee {
+    height: auto;
+    min-height: 320px;
+    padding: 30px 0;
+  }
+
+  .moniee h2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-text,
+  .address {
+    text-align: center !important;
+  }
+
+  .store-buttons {
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
 }
