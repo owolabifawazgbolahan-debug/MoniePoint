@@ -325,7 +325,9 @@ body {
   align-items: center;
 }
 .main-1-2 img{
-    margin-top: 70px;
+    margin-top: 50px;
+    height: 650px;
+    width: 1300px;
 }
 
 .gear{
@@ -335,7 +337,7 @@ body {
 
 .african {
   background-color: #3e588e;
-  width: 50%;
+  width: 60%;
   height: auto;
   color: #f9fafb;
   display: flex;
@@ -1420,7 +1422,11 @@ body{
   flex-shrink: 0;
 }
 
-.ashift:hover{
+.oaa1{
+  margin: 40px;
+}
+
+.oaa1:hover{
     transform: scale(0.96);
 }
 
