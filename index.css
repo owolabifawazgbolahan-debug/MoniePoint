@@ -973,15 +973,14 @@ body{
 }
 
 .products-nav{
-    position:fixed;
-    top:0px;
+    position:sticky;
+    top:190px;
     /* background-color: #F3F7FC; */
-    z-index:1000;
-    /* width:100%; */
-    padding: 15px 0;
+    z-index:100;
+    width:100%;
     /* padding-top: 200px; */
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
 }
 
 .nav-box{
