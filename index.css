@@ -1006,7 +1006,7 @@ body{
     background:#f6f8fc;
 }
 
-.products-navfawaz{
+.products-nav{
     position:sticky;
     top:190px;
     z-index:100;
@@ -1016,7 +1016,7 @@ body{
     justify-content: center;
 }
 
-.nav-boxfawaz{
+.nav-box{
     background:#fff;
     border-radius:35px;
     padding:15px;
@@ -1024,7 +1024,7 @@ body{
     box-shadow:0 20px 40px rgba(0,0,0,.08); 
 }
 
-.nav-pillsfawaz{
+.nav-pills{
     display: flex;
     flex-wrap:nowrap;
     overflow-x:auto;
@@ -1033,30 +1033,30 @@ body{
     /* padding-top: 200px; */
 }
 
-.nav-pillsfawaz::-webkit-scrollbarfawaz{
+.nav-pills::-webkit-scrollbar{
     display:none;
 }
 
-.nav-linkfawaz{
+.sticky-part{
     color:#6e7fa8 !important;
     border-radius:50px !important;
     padding:14px 24px !important;
     margin-right:10px;
 }
 
-.nav-link.activefawaz{
+.nav-link.active{
     background:#d8edff !important;
     color:#082d6d !important;
 }
 
-.sectionfawaz{
+.section{
     min-height:100vh;
     display:flex;
     align-items:center;
     padding: 120px 0;
 }
 
-.tagfawaz{
+.tag{
     display:inline-block;
     padding:10px 18px;
     border-radius:30px;
@@ -1064,19 +1064,19 @@ body{
     color:#082d6d;
 }
 
-.titlefawaz{
+.title{
     font-size:4rem;
     font-weight:700;
     color:#082d6d;
 }
 
-.textfawaz{
+.text{
     font-size:1.4rem;
     color:#355796;
     line-height:1.8;
 }
 
-.btn1fawaz{
+.btn1{
     background:#0057ff;
     color:#fff;
     border:none;
@@ -1085,11 +1085,11 @@ body{
     transform: 3s ease;
 }
 
-.btn1fawaz:hover{
+.btn1:hover{
     transform: scale(0.96);
 }
 
-.btn1fawaz:active{
+.btn1:active{
     transform: scale(0.92);
 }
 
@@ -1097,7 +1097,7 @@ body{
     transform: scale(0.96);
 }
 
-.btn2fawaz{
+.btn2{
     background:#fff;
     color:#0057ff;
     border:none;
@@ -1106,16 +1106,16 @@ body{
     transform: 3s ease;
 }
 
-.btn2fawaz:hover{
+.btn2:hover{
     background-color: #F2F2F2;
     transform: scale(0.96);
 }
 
-.btn2fawaz:active{
+.btn2:active{
     transform: scale(0.92);
 }
 
-.image-boxfawaz{
+.image-box{
     height:500px;
     border-radius:40px;
     background:#d9efff;
@@ -1128,11 +1128,11 @@ body{
 
 @media(max-width:991px){
 
-.titlefawaz{
+.title{
     font-size:2.7rem;
 }
 
-.image-boxfawaz{
+.image-box{
     margin-top:40px;
     height:350px;
 }
