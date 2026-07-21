@@ -358,7 +358,7 @@ body {
 .african {
   background-color: #3e588e;
   width: 65%;
-  height: auto;
+  height: 50px;
   color: #f9fafb;
   display: flex;
   align-items: center;
@@ -371,6 +371,8 @@ body {
 .african img{
     margin: 10px;
 }
+
+
 
 .main-1-1 h1 {
   font-size: 50px;
