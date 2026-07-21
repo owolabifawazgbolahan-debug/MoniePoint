@@ -323,16 +323,17 @@ body {
   /* height: 250dvh; */
   /* border: 1px solid rgb(205, 62, 85); */
   margin-top: 10dvh;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 50px;
   background-color: #031335;
-  clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0% 0%);
+  /* clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0% 0%); */
 }
 
 .main-1 {
   height: 110dvh;
   background-color: #031335;
   width: 100%;
+  /* clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0% 0%); */
 }
 .main-1-1 {
   height: auto;
@@ -376,9 +377,6 @@ body {
   color: white;
 }
 
-
-
-    
     
 
 .africa-text {
@@ -1200,6 +1198,7 @@ body{
 .moniee{
     background-image: url(ctaL.svg);
     background-position: center;
+    width: 100%;
     background-color:rgb(3, 82, 224) ;
     height: 430px;
 }
