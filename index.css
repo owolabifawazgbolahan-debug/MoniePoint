@@ -351,7 +351,7 @@ body {
 .gear{
     filter: brightness(0) invert(1);
     flex-shrink: 0;
-    width: 50px;
+    /* width: 50px; */
     height: auto;
 }
 
