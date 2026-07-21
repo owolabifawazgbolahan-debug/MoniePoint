@@ -658,7 +658,7 @@ body {
    DESKTOP
 =========================== */
 
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px) {
   .poli-1 a,
   .poli-2 a {
     position: relative;
@@ -742,13 +742,13 @@ body {
     font-size: 14px;
   }
   .right-panel p {
-    font-size: 6px;
+    font-size: 13px;
     color: gray;
   }
 
   .item p {
     font-size: 12px;
-    line-height: 0.1px;
+    line-height: 1.4;
     color: gray;
   }
 
@@ -845,13 +845,6 @@ body {
   .banking-panel {
     top: -70px !important;
   }
-  .fa-credit-card {
-    font-size: 24px;
-    margin-left: -30px;
-    margin-bottom: -10px;
-    padding-right: 7px;
-    color: rgb(65, 65, 65);
-  }
   .fa-building {
     font-size: 24px;
     margin-left: -30px;
@@ -869,9 +862,6 @@ body {
   }
   .payments-panel {
     top: -190px;
-  }
-  .management-panel {
-    top: -230px !important;
   }
   .smal {
     font-size: 10px !important;
