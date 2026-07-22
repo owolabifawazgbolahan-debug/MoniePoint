@@ -350,8 +350,10 @@ body {
 
 .gear{
     filter: brightness(0) invert(1);
-    flex-shrink: 0;
-    width: 50px;
+    /* flex-shrink: 0; */
+    /* padding-left: 10px; */
+    width: 20px;
+    margin-top: 10px;
     height: 10px;
 }
 
